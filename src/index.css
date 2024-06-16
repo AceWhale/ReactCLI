@@ -1,0 +1,50 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.spacer {
+  flex: 1;
+}
+
+footer{
+  background-color: #f5f5f5;
+  padding: 10px 30px;
+}
+
+.sub-header {
+  background: url(../public/img/header.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 25vh;
+  min-height: 150px;
+}
+
+.calendar {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calendar-item {
+  border: 1px solid black;
+  text-align: center;
+  width: 14.286%;
+}
+
+.item-free{
+  background-color: greenyellow;
+  cursor: pointer;
+}
+.item-past{
+  background-color: gray;
+}
+.item-reserved{
+  color: hotpink;
+}
+
+.card-deleted{
+  opacity: .4;
+}
